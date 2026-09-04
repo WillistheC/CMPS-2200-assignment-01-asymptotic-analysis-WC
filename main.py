@@ -5,12 +5,26 @@ See assignment-01.pdf for details.
 # no imports needed.
 
 def foo(x):
-    ### TODO
-    pass
+    if x <= 1:
+        return x
+    else:
+        ra = foo(x - 1)
+        rb = foo(x - 2)
+    return ra + rb
 
-def longest_run(mylist, key):
-    ### TODO
-    pass
+def longest_run(mylist, key): #iterative version
+    current = 0
+    max = 0
+    for num in mylist:
+        if num == key:
+            current += 1
+        else:
+            if current > max:
+                max = current
+            current = 0
+        if current > max:
+            max = current
+    return max
 
 
 class Result:
@@ -30,5 +44,21 @@ class Result:
     
     
 def longest_run_recursive(mylist, key):
-    ### TODO
-    pass
+    if len(mylist) == 0:
+        return Result(0, 0, 0, True)
+    if len(mylist) == 1:
+        if (mylist[0] == key):
+            return Result(1, 1, 1, True)
+        else:
+            return Result(0, 0, 0, False)
+    middle = len(mylist) // 2 
+    left_res = longest_run_recursive(mylist[:middle], key)
+    right_res = longest_run_recursive(mylist[middle:], key)
+    cross = left_res.right_size + right_res.left_size
+    long = max(left_res.longest_size, right_res.longest_size, cross)
+    if left_res.is_entire_range:
+        left_res.left_size += right_res.left_size
+    if right_res.is_entire_range:
+        right_res.right_size += left_res.right_size
+    entire = len(mylist) == long
+    return Result(left_res.left_size, right_res.right_size, long, entire)
