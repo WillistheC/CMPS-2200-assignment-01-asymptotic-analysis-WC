@@ -10,13 +10,13 @@ Place all written answers from `assignment-01.md` here for easier grading.
   
   - 1b (2 pts): No, the limit computes to $2^{2^n - n}$, which is $2^\infty = \infty$
  
-  - 1c (2 pts): No, the limit easily computes to $\infty$
+  - 1c (2 pts): No, the limit easily computes to $\infty$ - redo
 
-  - 1d (2 pts): Yes, because the limit computes to $\infty$
+  - 1d (2 pts): Yes, because the limit computes to $\infty$ - redo
 
-  - 1e (2 pts): No, ignoring constants, L'Hopital's gives $\frac{n^{-.5}}{n^{-1}} = n^{.5} = \infty$
+  - 1e (2 pts): No, ignoring constants, L'Hopital's gives $\frac{n^{-.5}}{n^{-1}} = n^{.5} = \infty$ - redo
 
-  - 1f (2 pts): Yes, because the limit computes to $\infty$
+  - 1f (2 pts): Yes, because the limit computes to $\infty$ - redo
 
   - 1g (2 pts):
 
