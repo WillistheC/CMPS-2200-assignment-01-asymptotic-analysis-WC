@@ -12,7 +12,7 @@ Place all written answers from `assignment-01.md` here for easier grading.
  
   - 1c (2 pts): No, the limit easily computes to $\infty$
 
-  - 1d (2 pts):
+  - 1d (2 pts): Yes because the limit computes to $\infty$
 
   - 1e (2 pts):
 
