@@ -1,22 +1,22 @@
 # CMPS 2200 Assignment 01
 ## Answers
 
-**Name:**_________________________
-
+**Name:** Will Cunningham
 
 Place all written answers from `assignment-01.md` here for easier grading.
 
 1. **Asymptotic notation**
-
-  - 1b (2 pts): 
+  - 1a (2 pts): Yes, the limit of T over O is a constant
+  
+  - 1b (2 pts): No, the limit computes to $2^{2^n - n}$, which is $2^\infty = \infty$
  
-  - 1c (2 pts): 
+  - 1c (2 pts): No, the limit easily computes to $\infty$ - redo
 
-  - 1d (2 pts):
+  - 1d (2 pts): Yes, because the limit computes to $\infty$ - redo
 
-  - 1e (2 pts):
+  - 1e (2 pts): No, ignoring constants, L'Hopital's gives $\frac{n^{-.5}}{n^{-1}} = n^{.5} = \infty$ - redo
 
-  - 1f (2 pts):
+  - 1f (2 pts): Yes, because the limit computes to $\infty$ - redo
 
   - 1g (2 pts):
 
