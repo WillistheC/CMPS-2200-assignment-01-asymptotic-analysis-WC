@@ -1,7 +1,7 @@
 # CMPS 2200 Assignment 01
 ## Answers
 
-**Name:**_________________________
+**Name:** Will Cunningham
 
 
 Place all written answers from `assignment-01.md` here for easier grading.
