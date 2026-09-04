@@ -7,7 +7,7 @@
 Place all written answers from `assignment-01.md` here for easier grading.
 
 1. **Asymptotic notation**
-
+  - 1a (2 pts): Yes, the limit of T over O is a constant
   - 1b (2 pts): 
  
   - 1c (2 pts): 
