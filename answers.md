@@ -2,7 +2,6 @@
 ## Answers
 
 **Name:** Will Cunningham
-$\int_0^\infty \mathrm{e}^{-x},\mathrm{d}x$
 
 Place all written answers from `assignment-01.md` here for easier grading.
 
