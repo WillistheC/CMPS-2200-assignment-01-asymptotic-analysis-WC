@@ -26,7 +26,7 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
 3. **Parallelism and recursion**
 
-  - 3b (4 pts): Each element is processed once, so $W(n) = $/theta$(n)$
+  - 3b (4 pts): Each element is processed once, so $W(n) = /theta(n)$
 
   - 3d (4 pts):
 
