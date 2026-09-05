@@ -14,9 +14,9 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
   - 1d (2 pts): Yes, because the limit computes to $\infty$ 
 
-  - 1e (2 pts): No, ignoring constants, L'Hopital's gives $\frac{n^{-.5}}{n^{-1}} = n^{.5} = \infty$ - redo
+  - 1e (2 pts): No, ignoring constants, L'Hopital's gives $\frac{n^{-.5}}{n^{-1}\mathrm{log}^{2}n} = \frac{n^{-.5}}{n^{-1}\mathrm{log}n} = n^{.5}$ which goes to $\infty$
 
-  - 1f (2 pts): Yes, because the limit computes to $\infty$ - redo
+  - 1f (2 pts): Yes, because the limit computes to $\infty$ 
 
   - 1g (2 pts):
 
