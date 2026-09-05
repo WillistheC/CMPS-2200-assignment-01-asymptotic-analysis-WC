@@ -10,7 +10,7 @@ Place all written answers from `assignment-01.md` here for easier grading.
   
   - 1b (2 pts): No, the limit computes to $2^{2^n - n}$, which is $2^\infty = \infty$
  
-  - 1c (2 pts): , ignoring constants, L'Hopital's gives $\frac{n^{.1}}{n^{-1}\mathrm{log}n}$
+  - 1c (2 pts): No, ignoring constants, L'Hopital's gives $\frac{n^{.1}}{n^{-1}\mathrm{log}n}$ which goes to $\infty$ 
 
   - 1d (2 pts): Yes, because the limit computes to $\infty$ - redo
 
