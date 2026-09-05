@@ -28,6 +28,6 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
   - 3b (4 pts): Each element is processed once, so $W(n) = Θ(n)$; Each iteration is dependent, so $S(n) = Θ(n)$
 
-  - 3d (4 pts): Recursive calls are made on $2$ lists of size $\frac{n}{2}$, so $W(n) = 2W(\frac{n}{2}) = Θ(n)$
+  - 3d (4 pts): Recursive calls are made on $2$ lists of size $\frac{n}{2}$, so $W(n) = 2W(\frac{n}{2}) = Θ(n)$, because the recursive calls split the list in halve, $S(n) = S(\frac{n}{2}) = Θ(\mathrm{log}n)$
 
   - 3e (5 pts):
