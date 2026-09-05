@@ -22,7 +22,7 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
 2. **SPARC to Python**
 
-  - 2b (3 pts): This function gives the nth term of the Fibonacci Sequence
+  - 2b (3 pts): This function gives the $/n$th term of the Fibonacci Sequence
 
 3. **Parallelism and recursion**
 
